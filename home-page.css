@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-size: 300vh;
+  }
+
+  header {
+    background-color: #e5faff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: #194885;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .navbar a, .navbar input {
+    margin: 5px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #444;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  #featured-pets {
+    text-align: center;
+    background-color: rgb(240, 237, 234);
+  }
+
+  .pet-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 300px;
+  }
+
+  .pet-card img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+  }
+
+  .pet-card button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .pet-card button:hover {
+    background-color: #555;
+  }
+  footer {
+    background-color: #e5faff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /*css from chat gpt*/
+  .pet-container {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  gap: 20px; /* Adds space between cards */
+  flex-wrap: wrap; /* Wraps cards to next line on smaller screens */
+  margin: 20px;
+}
+
+.pet-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
